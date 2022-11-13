@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">PAINT</div>
+
+    <div class="main">
+        <div class="options">
+            <input id="color-picker" type="color">
+            <button class="active" id="draw-btn">Draw</button>
+            <button id="erase-btn">Erase</button>
+            <button id="clear-btn">Clear</button>
+            <div id="canvas-size">1 x 1</div>
+            <input id="size-slider" type="range" min="1" max="64" value="16">
+        </div>
+    
+        <div class="canvas" id="canvas"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
